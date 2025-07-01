@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Open+Sans:wght@300;400&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400&family=Oswald:wght@300&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400&family=Oswald:wght@300&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400&family=Oswald:wght@300&family=Sancreek&display=swap');
+
+
+
+*{
+    user-select: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(img/Desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #151515;
+    user-select: none;
+}
+
+
+.contaier {
+    width: 1920px;
+}
+
+    
+h1 {
+    font-size: 40px;
+    user-select: none;
+}
+
+
+h3.h3_i {
+    color: rgb(39, 38, 38);
+    font-size: 20px;
+    font-family: 'Sancreek';
+    position: absolute;
+    top: 711px;
+    left:610px;
+    user-select: none;
+}
+
+input.numCoins {
+    width: 70px;
+    height: 18px;
+    position: absolute;
+    top: 732px;
+    left:820px;
+    font-family: 'Press start 2p';
+    box-shadow: 2px 4px 0px #151515, inset 5px 4px 2px rgba(183, 183, 183, 0.25), inset 0px 5px 4px rgba(98, 98, 98, 0.25);
+    text-align: center;
+}
+
+input.btn-coins {
+    width: 125px;
+    height: 39px;
+    position: absolute;
+    top: 723px;
+    left:1010px;
+    user-select: none;
+    text-align: center;
+    font-family: 'Sancreek', cursive;
+    font-size: 20px;
+    background: #242424;
+    box-sizing: border-box;
+    background-color: goldenrod;
+    border-radius: 15px;
+    border: 2px solid #1F1F1F;
+    box-shadow: 2px 4px 0px #151515, inset 5px 4px 2px rgba(183, 183, 183, 0.25), inset 0px 5px 4px rgba(98, 98, 98, 0.25);
+    user-select: none;
+}
+
+input.btn-coins:hover{
+    background-color: rgba(163, 10, 10, 0.699);
+    color: white;
+    border: 2px solid rgb(99, 10, 10);
+    user-select: none;
+}
+p.nam {
+    font-family: 'Sancreek';
+    color: rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 15px rgba(255, 196, 0, 0.829), 0 0 10px rgba(255,255,255,.5);
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 1390px;
+    user-select: none;
+}
+
+h1#showCoin {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(255, 153, 0), 0 -10px 20px #ffc400, 0 -18px 40px rgb(255, 166, 0);
+    padding:30px;
+    font-family: 'Sancreek';
+    font-size: 60px;
+    background-color: rgb(12, 12, 12);
+    border: 5px solid rgb(233, 207, 90);
+    border-radius: 50%;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 1360px;
+    user-select: none;
+    box-shadow: 17px 10px 15px 3px rgba(0,0,0,0.51)
+    ;
+    user-select: none;
+}
+h1#showCoin:hover {
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(233, 207, 90);
+    user-select: none;
+}
+
+button.btn-exit {
+    width: 125px;
+    height: 39px;
+    position: absolute;
+    top: 880px;
+    left:815px;
+    user-select: none;
+    text-align: center;
+    font-family: 'Sancreek', cursive;
+    font-size: 20px;
+    background: #242424;
+    box-sizing: border-box;
+    background-color: goldenrod;
+    border-radius: 15px;
+    border: 2px solid #1F1F1F;
+    box-shadow: 2px 4px 0px #151515, inset 5px 4px 2px rgba(183, 183, 183, 0.25), inset 0px 5px 4px rgba(98, 98, 98, 0.25);
+    user-select: none;
+}
+
+button.btn-exit:hover{    
+    background-color: rgba(163, 10, 10, 0.699);
+    color: white;
+    border: 2px solid rgb(99, 10, 10);
+    user-select: none;
+}
+
+img {
+    width: 180px;
+    display: flex;
+    user-select: none;
+}
+
+#ventanas {
+    display: flex;
+    justify-content: left;
+    user-select: none;
+}
+
+#palanca_img {
+    margin: 10px;
+    padding: 10px;
+    width: 178px;
+    height: 180px;
+    position: absolute;
+    left: 1285px;
+    top: 400px;
+    user-select: none;
+}
+
+.figOne {
+    width: 178px;
+    height: 180px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 552px;
+    top: 380px;
+    user-select: none;
+}
+.figTwo {
+    width: 178px;
+    height: 180px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 761px;
+    top: 380px;
+    user-select: none;
+}
+.figThree {
+    width: 178px;
+    height: 180px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 970px;
+    top: 380px;
+    user-select: none;
+}
+
+h3.h3_h {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(105, 7, 15);
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1020px;
+    left:570px;
+    user-select: none;
+}
+
+.historial{
+    color: rgb(255, 255, 255);
+    background-color: rgba(37, 37, 37, 0.774);
+    width: 600px;
+    font-size: 18px;
+    position: absolute;
+    top: 1080px;
+    left:570px;
+    user-select: none;
+}
+
+
+
+
+
+@media (max-width: 1600px) {
+
+    p.nam {
+        font-size: 20px;
+        top: 30px;
+        left: 1170px;
+    }
+
+    h1#showCoin {
+        width: 100px;
+        height: 20px;
+        top: 75px;
+        left: 1260px;
+        font-size: 40px;
+    }
+
+    img {
+        width: 156px;
+    }
+    
+    #palanca_img {
+        left: 1105px;
+        top: 340px;
+    }
+    
+    .figOne {
+        left: 470px;
+        top: 340px;
+    }
+    .figTwo {
+        left: 654px;
+        top: 340px;
+    }
+    .figThree {
+        left: 834px;
+        top: 340px;
+    }
+
+    input.numCoins {
+        top: 630px;
+        left:700px;
+        width: 100px;
+    }
+    
+    input.btn-coins {
+        top: 626px;
+        left:870px;
+        height: 30px;
+        width: 110px;
+        font-size: 16px;
+    }
+
+    h3.h3_i {
+        top: 630px;
+        left:520px;
+        font-size: 18px;
+    }
+
+    button.btn-exit {
+        top: 760px;
+        left:680px;
+    }
+
+    h3.h3_h{
+        top: 900px;
+        left:460px;
+    }
+
+    .historial{
+        width: 580px;
+        top: 940px;
+        left:480px;
+    }
+}
+
+
+
+
+@media (max-width: 1100px) {
+    h3.h3_i {
+        top: 448px;
+        left:360px;
+        font-size: 16px;
+    }
+
+    p.nam {
+        font-size: 18px;
+        top: 10px;
+        left: 900px;
+    }
+
+    h1#showCoin {
+        width: 80px;
+        height: 10px;
+        top: 65px;
+        left: 910px;
+        font-size: 40px;
+    }
+
+    img {
+        width: 120px;
+    }
+    
+    #palanca_img {
+        left: 780px;
+        top: 210px;
+    }
+    
+    .figOne {
+        left: 330px;
+        top: 230px;
+    }
+    .figTwo {
+        left: 460px;
+        top: 230px;
+    }
+    .figThree {
+        left: 590px;
+        top: 230px;
+    }
+
+    input.numCoins {
+        top: 448px;
+        left:515px;
+    }
+    
+    input.btn-coins {
+        top: 446px;
+        left:610px;
+        height: 26px;
+        width: 100px;
+        font-size: 16px;
+    }
+
+    button.btn-exit {
+        top: 500px;
+        left:480px;
+    }
+
+    h3.h3_h{
+        top: 650px;
+        left:260px;
+    }
+
+    .historial{
+        width: 580px;
+        top: 690px;
+        left:280px;
+    }
+}
+

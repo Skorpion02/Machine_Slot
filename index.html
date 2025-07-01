@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="insertCoins">
+            <h3 class="h3_i">Introduce monedas:</h3>
+            <input class="numCoins" type="number" name="coins" id="coins">
+            <input class="btn-coins" type="submit" value="Introducir" id="insertCoin" onclick="printCoins()">
+            <p class="nam">El número actual de monedas es de:</p>
+            <h1 id="showCoin">0</h1>
+        </div>
+        <div class="exit">
+            <button class="btn-exit" onclick="exit()">Salir</button>
+        </div>
+        <div class="showCoin"></div>
+        <div id="ventanas">
+            
+            
+
+            <div class="figOne"><img src="img/pingu.png" alt="figura1" id="pingu1"></div>
+            <div class="figTwo"><img src="img/pingu.png" alt="figura2" id="pingu2"></div>
+            <div class="figThree"><img src="img/pingu.png" alt="figura3" id="pingu3"></div> 
+            <div class="play">
+                <img src="img/palancaUP.png" alt="" id="palanca_img" onclick="play()" onmousedown="bajarPalanca()" onmouseup="subirPalanca()">
+            </div>
+        </div>
+        <h3 class="h3_h">Historial de movimientos</h3>
+        <div class="historial"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
